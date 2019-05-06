@@ -12,3 +12,6 @@ Schema:
         details
         DOB
         location     
+
+TODO
+fix rails c error
