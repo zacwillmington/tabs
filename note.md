@@ -14,4 +14,10 @@ Schema:
         location     
 
 TODO
-fix rails c error
+    nav link an routes
+    create front end routes with react router
+    create signin component and signup component 
+    hook up servers
+    add authentication
+    buildout crud actions
+
