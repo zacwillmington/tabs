@@ -57,11 +57,11 @@ class NavBar extends Component {
             <div className='navBar'>
                 <ul className='nav nav-tabs'>
                     <li><NavLink to='/'>Home</NavLink></li>
-                    <li><NavLink to='/events'>Events</NavLink></li>
-                    { this.renderAccountLink() }
-                    { this.renderCreateEventLink() }
-                    { this.renderLogoutLink() }
-                    { this.renderSigninSignupLinks() }
+                    <li><NavLink to='/contacts'>Events</NavLink></li>
+                    {/* { this.renderAccountLink() } */}
+                    {/* { this.renderCreateEventLink() } */}
+                    {/* { this.renderLogoutLink() } */}
+                    {/* { this.renderSigninSignupLinks() } */}
                 </ul>
             </div>
         )
