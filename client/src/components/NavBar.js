@@ -46,6 +46,7 @@ class NavBar extends Component {
             return (
                 <React.Fragment>
                     <NavLink to={`/users/${this.props.currentUser.id}`}>Account</NavLink>
+                    <li><NavLink to='/contacts'>Contacts</NavLink></li>
                     <li><NavLink to='/signin'>Sign In</NavLink></li>
                     <li><NavLink to='/signup'>Sign Up</NavLink></li>
                 </React.Fragment>
@@ -57,11 +58,10 @@ class NavBar extends Component {
             <div className='navBar'>
                 <ul className='nav nav-tabs'>
                     <li><NavLink to='/'>Home</NavLink></li>
-                    <li><NavLink to='/contacts'>Events</NavLink></li>
-                    {/* { this.renderAccountLink() } */}
-                    {/* { this.renderCreateEventLink() } */}
-                    {/* { this.renderLogoutLink() } */}
-                    {/* { this.renderSigninSignupLinks() } */}
+                    <NavLink to={`/users/${this.props.currentUser.id}`}>Account</NavLink>
+                    <li><NavLink to='/contacts'>Contacts</NavLink></li>
+                    <li><NavLink to='/signin'>Sign In</NavLink></li>
+                    <li><NavLink to='/signup'>Sign Up</NavLink></li>
                 </ul>
             </div>
         )

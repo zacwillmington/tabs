@@ -2,6 +2,9 @@ import React from 'react';
 import './App.css';
 import NavBar from './components/NavBar';
 import HomePage from './containers/HomePage';
+import ContactsContainer from './containers/ContactsContainer';
+import AccountContainer from './containers/AccountContainer';
+
 
 function App() {
   return (
