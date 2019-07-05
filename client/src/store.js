@@ -3,7 +3,7 @@
 import rootReducer from './Reducers/manageReducers';
 import thunk from 'redux-thunk';
 import { createStore, applyMiddleware, compose } from 'redux';
-import reduxReset from 'redux-reset';
+// import reduxReset from 'redux-reset';
 
 import logger from 'redux-logger'
 

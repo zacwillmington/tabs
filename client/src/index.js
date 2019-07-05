@@ -9,9 +9,8 @@ import { store } from './store';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-    <Provider>
-        
-            <Router store={store}>
+    <Provider store={store}>
+            <Router>
                 <App store={store} />
             </Router>
     </Provider>

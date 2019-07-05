@@ -19,5 +19,6 @@ TODO
     create signin component and signup component 
     hook up servers
     add authentication
+    remove location actions and reducers code for locations
     buildout crud actions
 
