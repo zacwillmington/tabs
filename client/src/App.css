@@ -1,5 +1,15 @@
 .App {
   text-align: center;
+  background-color: #323639;
+  height: 100vh;
+  font-family: 'Fredoka One', cursive;
+  /* font-family: 'Merriweather', serif; */
+/* font-family: 'Exo 2', sans-serif; */
+}
+
+h1 {
+  color: bisque;
+  font-size: 15em;
 }
 
 .App-logo {
